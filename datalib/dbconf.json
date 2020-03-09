@@ -1,0 +1,16 @@
+{
+    "database": "flight",
+    "user": "root",
+    "password": "root",
+    "dbconf": {
+        "host": "localhost",
+        "pool": {
+            "max": 5,
+            "min": 0,
+            "idle": 10000
+        },
+        "port": 3306,
+        "dialect": "mysql",
+        "logging":false
+    }
+}
